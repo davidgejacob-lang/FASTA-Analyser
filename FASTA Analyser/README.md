@@ -74,7 +74,7 @@ ATGACCAACATTCGAAAAACACATAATCGGGAGCCCCCTCTAGCCTAGCCCTATATGGCGTCTTCTATATAGC
 
 To ensure dependencies like biopython work properly and avoid version conflicts, run this project inside a virtual environment.
 
-1. On Windows:
+On Windows:
 ```bash
 # Create the virtual environment
 python -m venv venv
@@ -89,7 +89,7 @@ pip install -r requirements.txt
 python fasta_analyzer.py
 ```
 
-2. On macOS/Linux:
+On macOS/Linux:
 ```bash
 python3 -m venv venv
 source venv/bin/activate
@@ -97,10 +97,12 @@ pip install -r requirements.txt
 python3 fasta_analyzer.py
 ```
 
-3. To deactivate the environment later:
+To deactivate the environment later:
 ```bash
 deactivate
 ```
+
+---
 
 📦 If You Don't Want a Virtual Environment
 
@@ -109,17 +111,19 @@ deactivate
 pip install biopython tk
 ```
 
-5. Install dependencies:
+---
+
+1. Install dependencies:
 ```bash
 pip install -r requirements.txt
 ```
 
-6. Run the script:
+2. Run the script:
 ```bash
 python fasta_analyzer.py
 ```
 
-7. Use the GUI window to select your FASTA file.
+3. Use the GUI window to select your FASTA file.
 
 ---
 
