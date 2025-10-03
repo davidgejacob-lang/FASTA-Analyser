@@ -106,7 +106,7 @@ deactivate
 
 📦 If You Don't Want a Virtual Environment
 
-4. You can also install the package globally (not recommended for long term):
+You can also install the package globally (not recommended for long term):
 ```bash
 pip install biopython tk
 ```
