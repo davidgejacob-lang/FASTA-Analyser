@@ -1,0 +1,62 @@
+============================================================
+<<< FASTA Analysis Report
+------------------------------------------------------------
+<<< Input file: complex_sequences.fasta
+<<< Reverse complement & RNA conversion: Yes
+============================================================
+
+Sequence ID: Human_COX1
+Length: 73 bases
+Base Counts: A=22, T=17, C=22, G=12
+GC Content: 46.58%
+AT Content: 53.42%
+
+Reverse Complement:
+GCTATATAGAAGACGCCATATAGGGCTAGGCTAGAGGGGGCTCCCGATTATGTGTTTTTCGAATGTTGGTCAT
+Transcribed RNA:
+AUGACCAACAUUCGAAAAACACAUAAUCGGGAGCCCCCUCUAGCCUAGCCCUAUAUGGCGUCUUCUAUAUAGC
+--------------------------------------------------
+Sequence ID: Mouse_COX1
+Length: 72 bases
+Base Counts: A=19, T=16, C=23, G=14
+GC Content: 51.39%
+AT Content: 48.61%
+
+Reverse Complement:
+GCGTATATAAGACGCCAGATAGGACTAGGCTAGAGGGGGTTCCCGATTGGTGTGGCTTCTAATGTCGCTCAT
+Transcribed RNA:
+AUGAGCGACAUUAGAAGCCACACCAAUCGGGAACCCCCUCUAGCCUAGUCCUAUCUGGCGUCUUAUAUACGC
+--------------------------------------------------
+Sequence ID: Zebrafish_COX1
+Length: 72 bases
+Base Counts: A=21, T=16, C=22, G=13
+GC Content: 48.61%
+AT Content: 51.39%
+
+Reverse Complement:
+GGCTATATAAGACGCCATATAGGGCTAGGCTAGAGGGTGCTCCCGATTATGTGGCTTTCGAATGTTGGTCAT
+Transcribed RNA:
+AUGACCAACAUUCGAAAGCCACAUAAUCGGGAGCACCCUCUAGCCUAGCCCUAUAUGGCGUCUUAUAUAGCC
+--------------------------------------------------
+Sequence ID: Yeast_MitoGene
+Length: 71 bases
+Base Counts: A=18, T=18, C=17, G=18
+GC Content: 49.30%
+AT Content: 50.70%
+
+Reverse Complement:
+GCGCTAAGCCTATAGCGGTATCCAAATGCTAGGCTCCGCACCCTAAATTTGTGAAGGCTATGTAGTGCCAT
+Transcribed RNA:
+AUGGCACUACAUAGCCUUCACAAAUUUAGGGUGCGGAGCCUAGCAUUUGGAUACCGCUAUAGGCUUAGCGC
+--------------------------------------------------
+Sequence ID: Drosophila_mtDNA
+Length: 72 bases
+Base Counts: A=16, T=19, C=22, G=15
+GC Content: 51.39%
+AT Content: 48.61%
+
+Reverse Complement:
+GCCGGTAGAAGACGCCATATAAGGCTAGGCTAGAGAGGGCACCCGATTATGTGTATTCGAATCGCTGGTCAT
+Transcribed RNA:
+AUGACCAGCGAUUCGAAUACACAUAAUCGGGUGCCCUCUCUAGCCUAGCCUUAUAUGGCGUCUUCUACCGGC
+--------------------------------------------------
