@@ -70,17 +70,56 @@ ATGACCAACATTCGAAAAACACATAATCGGGAGCCCCCTCTAGCCTAGCCCTATATGGCGTCTTCTATATAGC
 
 ## ▶️ How to Run
 
-1. Install dependencies:
+🧪 Setting Up a Virtual Environment (Recommended)
+
+To ensure dependencies like biopython work properly and avoid version conflicts, run this project inside a virtual environment.
+
+1. On Windows:
+```bash
+# Create the virtual environment
+python -m venv venv
+  
+# Activate it
+venv\Scripts\activate
+  
+# Install dependencies
+pip install -r requirements.txt
+  
+# Run the program
+python fasta_analyzer.py
+```
+
+2. On macOS/Linux:
+```bash
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+python3 fasta_analyzer.py
+```
+
+3. To deactivate the environment later:
+```bash
+deactivate
+```
+
+📦 If You Don't Want a Virtual Environment
+
+4. You can also install the package globally (not recommended for long term):
+```bash
+pip install biopython tk
+```
+
+5. Install dependencies:
 ```bash
 pip install -r requirements.txt
 ```
 
-2. Run the script:
+6. Run the script:
 ```bash
 python fasta_analyzer.py
 ```
 
-3. Use the GUI window to select your FASTA file.
+7. Use the GUI window to select your FASTA file.
 
 ---
 
@@ -89,12 +128,6 @@ python fasta_analyzer.py
 - GUI front-end with full output browser
 - Web app version using Flask or Streamlit
 - Add unit testing (pytest)
-
----
-
-## 📄 License
-
-MIT License — see `LICENSE` file for details.
 
 ---
 
